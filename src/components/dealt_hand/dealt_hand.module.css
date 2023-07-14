@@ -1,0 +1,15 @@
+.hand_self {
+  display: flex;
+  flex-direction: column;
+}
+.card_container {
+  display: flex;
+  margin: 10px;
+  position: relative;
+  width: 100%;
+}
+.userActions {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin: 10px;
+}
